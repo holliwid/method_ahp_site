@@ -1,0 +1,55 @@
+error: [object Object]rankingMatrix: NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaNitemRankMetaMap: [object Object]criteriaRankMetaMap: [object Object]rankedScoreMap: [object Object]rankedScores: NaN,NaN,NaNlog: ==========================================
+context:
+items: 
+[ '', '', '' ]
+criteria: 
+[ '', '', '' ]
+criteriaItemRank: 
+{ '': [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ] }
+criteriaRank: 
+[ [ 1, 0, 0 ], [ 0, 1, 0 ], [ 0, 0, 1 ] ]
+__________________________________
+MissingCriteriaRank {
+  type: 'MISSING_CRITERIA_RANK',
+  context: { criterionA: '', criterionB: '' } }
+criteriaItemRank['']
+(Incomplete)
+---------------------------------------------
+|          |          |          |          |
+|----------|----------|----------|----------|
+|          |     0.000|     0.000|     1.000|
+|          |     0.000|     0.000|     1.000|
+|          |     0.000|     0.000|     1.000|
+---------------------------------------------
+
+__________________________________
+criteriaRank:
+(Incomplete)
+-------------------------
+|     |     |     |     |
+|-----|-----|-----|-----|
+|     |1.000|0.000|0.000|
+|     |0.000|1.000|0.000|
+|     |0.000|0.000|1.000|
+-------------------------
+
+rankingMatrix: (Higher score is better)
+-------------------------
+|     |     |     |     |
+|-----|-----|-----|-----|
+|     |  NaN|  NaN|  NaN|
+|     |  NaN|  NaN|  NaN|
+|     |  NaN|  NaN|  NaN|
+-------------------------
+
+__________________________________
+ranked item scores: (Higher score is better)
+-------------
+|     |Score|
+|-----|-----|
+|     |  NaN|
+|     |  NaN|
+|     |  NaN|
+-------------
+
+==========================================
